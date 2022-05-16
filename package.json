@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot_waxtip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "@types/text-encoding": "^0.0.36",
+    "@waxio/waxjs": "^1.0.4",
+    "discord-api-types": "^0.31.0",
+    "discord.js": "^13.6.0",
+    "eosjs": "^22.1.0",
+    "node-fetch": "^3.2.4"
+  }
+}
